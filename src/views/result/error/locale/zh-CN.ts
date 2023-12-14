@@ -1,5 +1,5 @@
 export default {
-  'menu.result.error': '失败页',
+  'menu.result.error': '微信小程序',
   'error.result.title': '提交失败',
   'error.result.subTitle': '表单提交失败，请重试。',
   'error.result.goBack': '回到首页',

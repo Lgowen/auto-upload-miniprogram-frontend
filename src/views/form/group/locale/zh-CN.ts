@@ -1,5 +1,5 @@
 export default {
-  'menu.form.group': '分组表单',
+  'menu.form.group': '微信小程序',
   'groupForm.title.video': '视频参数',
   'groupForm.title.audio': '音频参数',
   'groupForm.title.description': '填写说明',

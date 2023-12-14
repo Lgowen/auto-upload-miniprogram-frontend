@@ -1,5 +1,5 @@
 export default {
-  'menu.dashboard.workplace': '工作台',
+  'menu.uni-flower-mall.workplace': '支付宝小程序',
   'workplace.welcome': '欢迎回来！',
   'workplace.balance': '余额（元）',
   'workplace.order.pending': '待支付',

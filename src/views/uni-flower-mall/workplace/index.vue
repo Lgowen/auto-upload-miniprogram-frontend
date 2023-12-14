@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <Breadcrumb :items="['menu.result', 'menu.result.success']" />
+    <Breadcrumb
+      :items="['menu.uni-flower-mall', 'menu.uni-flower-mall.workplace']"
+    />
     <div class="left-side">
       <div class="panel">
         <Banner />
@@ -15,7 +17,7 @@
 
 <script lang="ts">
   export default {
-    name: 'Success', // If you want the include property of keep-alive to take effect, you must name the component
+    name: 'Dashboard', // If you want the include property of keep-alive to take effect, you must name the component
   };
 </script>
 

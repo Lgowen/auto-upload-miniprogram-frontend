@@ -2,11 +2,11 @@ import { DEFAULT_LAYOUT } from '../base';
 import { AppRouteRecordRaw } from '../types';
 
 const DASHBOARD: AppRouteRecordRaw = {
-  path: '/dashboard',
-  name: 'dashboard',
+  path: '/uni-flower-mall',
+  name: 'uni-flower-mall',
   component: DEFAULT_LAYOUT,
   meta: {
-    locale: 'menu.dashboard',
+    locale: 'menu.uni-flower-mall',
     requiresAuth: true,
     icon: 'icon-dashboard',
     order: 0,
@@ -15,9 +15,9 @@ const DASHBOARD: AppRouteRecordRaw = {
     {
       path: 'workplace',
       name: 'Workplace',
-      component: () => import('@/views/dashboard/workplace/index.vue'),
+      component: () => import('@/views/uni-flower-mall/workplace/index.vue'),
       meta: {
-        locale: 'menu.dashboard.workplace',
+        locale: 'menu.uni-flower-mall.workplace',
         requiresAuth: true,
         roles: ['*'],
       },
@@ -26,9 +26,9 @@ const DASHBOARD: AppRouteRecordRaw = {
     {
       path: 'monitor',
       name: 'Monitor',
-      component: () => import('@/views/dashboard/monitor/index.vue'),
+      component: () => import('@/views/uni-flower-mall/monitor/index.vue'),
       meta: {
-        locale: 'menu.dashboard.monitor',
+        locale: 'menu.uni-flower-mall.monitor',
         requiresAuth: true,
         roles: ['admin'],
       },

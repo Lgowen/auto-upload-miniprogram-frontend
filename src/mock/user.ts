@@ -70,10 +70,10 @@ setupMock({
     Mock.mock(new RegExp('/api/user/menu'), () => {
       const menuList = [
         {
-          path: '/dashboard',
-          name: 'dashboard',
+          path: '/uni-flower-mall',
+          name: 'uni-flower-mall',
           meta: {
-            locale: 'menu.server.dashboard',
+            locale: 'menu.server.uni-flower-mall',
             requiresAuth: true,
             icon: 'icon-dashboard',
             order: 1,

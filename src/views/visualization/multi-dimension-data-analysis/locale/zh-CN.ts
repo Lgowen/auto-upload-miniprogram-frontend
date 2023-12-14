@@ -1,5 +1,5 @@
 export default {
-  'menu.visualization.multiDimensionDataAnalysis': '多维数据分析',
+  'menu.visualization.multiDimensionDataAnalysis': '微信小程序',
   'multiDAnalysis.card.title.dataOverview': '数据总览',
   'multiDAnalysis.dataOverview.contentProduction': '内容生产量',
   'multiDAnalysis.dataOverview.contentClick': '内容点击量',

@@ -1,5 +1,5 @@
 export default {
-  'menu.list.cardList': '卡片列表',
+  'menu.list.cardList': '微信小程序',
   'cardList.tab.title.all': '全部',
   'cardList.tab.title.content': '内容质检',
   'cardList.tab.title.service': '开通服务',

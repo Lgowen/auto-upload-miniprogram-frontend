@@ -1,5 +1,5 @@
 export default {
-  'menu.dashboard.monitor': 'Real-time Monitor',
+  'menu.uni-flower-mall.monitor': 'Real-time Monitor',
   'monitor.title.chatPanel': 'Chat Window',
   'monitor.title.quickOperation': 'Quick Operation',
   'monitor.title.studioInfo': 'Studio Information',

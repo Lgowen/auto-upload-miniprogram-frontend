@@ -1,5 +1,5 @@
 export default {
-  'menu.form.step': '分步表单',
+  'menu.form.step': '支付宝小程序',
   'stepForm.step.title': '创建渠道表单',
   'stepForm.step.title.baseInfo': '选择基本信息',
   'stepForm.step.subTitle.baseInfo': '创建渠道活动',

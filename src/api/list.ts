@@ -55,8 +55,46 @@ export function queryRulesPresetList() {
   return axios.get('/api/list/rules-preset');
 }
 
-export async function getQrcode() {
-  return axios.get(
-    'http://localhost:3001/api/qrcode/getQrcodeByVersion?version=1.1.1'
-  );
+export async function getBranchInfo(params: any) {
+  return axios.get('/api/branchInfo', {
+    params,
+  });
+}
+
+export async function getQrcode(params: any) {
+  return axios.post('/api/preview', params);
+}
+
+export async function getBranch(params: any) {
+  return axios.post('/api/repository/branch', params);
+}
+
+export async function uploadBundle(params: any) {
+  return axios.get('/api/upload', {
+    params,
+  });
+}
+
+export async function getPages() {
+  return axios.get(`/api/pagesList`);
+}
+
+export async function getLocalPage(url: string) {
+  return axios.get(`${url}/api/pagesList`);
+}
+
+export async function getFormList(url: string, params: any) {
+  return axios.get(`${url}/api/formList`, {
+    params,
+  });
+}
+
+export async function getConfigList(url: string, params: any) {
+  return axios.get(`${url}/api/configList`, {
+    params,
+  });
+}
+
+export async function previewAlipay(url: string, params: any) {
+  return axios.post(`${url}/api/previewAlipay`, params);
 }
