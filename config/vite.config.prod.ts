@@ -7,7 +7,7 @@ import configImageminPlugin from './plugin/imagemin';
 
 export default mergeConfig(
   {
-    mode: 'production',
+    mode: 'development',
     plugins: [
       configCompressPlugin('gzip'),
       configVisualizerPlugin(),

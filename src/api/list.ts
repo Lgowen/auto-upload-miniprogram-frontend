@@ -56,13 +56,11 @@ export function queryRulesPresetList() {
 }
 
 export async function getBranchInfo(params: any) {
-  return axios.get('/api/branchInfo', {
-    params,
-  });
+  return axios.post('/api/repository/branchInfo', params);
 }
 
 export async function getQrcode(params: any) {
-  return axios.post('/api/preview', params);
+  return axios.post('/api/repository/preview', params);
 }
 
 export async function getBranch(params: any) {
